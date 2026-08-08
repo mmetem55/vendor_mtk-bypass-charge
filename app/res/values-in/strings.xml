@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">Aktifkan pengisian daya bypass</string>
+    <string name="auto_limit_title">Perlindungan batas otomatis</string>
+    <string name="auto_limit_desc">Mematikan pengisian daya bypass dan mengisi daya baterai saat berada di bawah ambang batas yang ditentukan.</string>
+    <string name="cutoff_threshold">Batas pemutusan bypass: %d%%</string>
+</resources>

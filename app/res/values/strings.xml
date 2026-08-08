@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">Enable Bypass Charging</string>
+    <string name="auto_limit_title">Automatic Limit Protection</string>
+    <string name="auto_limit_desc">Turns off bypass charging and charges the battery when below the set threshold.</string>
+    <string name="cutoff_threshold">Bypass Cutoff Limit: %d%%</string>
+</resources>

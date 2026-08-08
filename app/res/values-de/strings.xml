@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">Bypass-Laden aktivieren</string>
+    <string name="auto_limit_title">Automatischer Limit-Schutz</string>
+    <string name="auto_limit_desc">Schaltet das Bypass-Laden aus und lädt den Akku, wenn er unter den festgelegten Schwellenwert fällt.</string>
+    <string name="cutoff_threshold">Bypass-Abschaltgrenze: %d%%</string>
+</resources>

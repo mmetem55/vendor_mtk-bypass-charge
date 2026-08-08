@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">Включить обходную зарядку</string>
+    <string name="auto_limit_title">Автоматическая защита ограничений</string>
+    <string name="auto_limit_desc">Отключает обходную зарядку и заряжает аккумулятор, если уровень ниже заданного порога.</string>
+    <string name="cutoff_threshold">Предел отключения обходной зарядки: %d%%</string>
+</resources>

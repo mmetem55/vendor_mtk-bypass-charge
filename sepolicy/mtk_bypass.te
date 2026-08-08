@@ -1,0 +1,15 @@
+type mtk_bypass, domain, coredomain;
+type mtk_bypass_exec, exec_type, file_type, system_file_type;
+type mtk_bypass_prop, property_type, system_property_type, system_public_property_type;
+
+type proc_mtk_bypass, fs_type;
+
+init_daemon_domain(mtk_bypass)
+
+set_prop(system_app, mtk_bypass_prop)
+set_prop(mtk_bypass, mtk_bypass_prop)
+get_prop(mtk_bypass, mtk_bypass_prop)
+
+allow mtk_bypass proc_type:dir search;
+
+allow mtk_bypass proc_mtk_bypass:file { rw_file_perms setattr };

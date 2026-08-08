@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">바이패스 충전 활성화</string>
+    <string name="auto_limit_title">자동 제한 보호</string>
+    <string name="auto_limit_desc">설정한 임계값 미만일 때 바이패스 충전을 끄고 배터리를 충전합니다.</string>
+    <string name="cutoff_threshold">바이패스 차단 제한: %d%%</string>
+</resources>

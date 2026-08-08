@@ -1,0 +1,7 @@
+cc_binary {
+    name: "mtk_bypass",
+    srcs: ["src/mtk_bypass.c"],
+    init_rc: ["init/mtk_bypass.rc"],
+    shared_libs: ["libc"],
+    vendor: false,
+}

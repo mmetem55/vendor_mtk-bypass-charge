@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">Bật sạc trực tiếp (Bypass)</string>
+    <string name="auto_limit_title">Bảo vệ giới hạn tự động</string>
+    <string name="auto_limit_desc">Tắt sạc trực tiếp và sạc pin khi ở dưới ngưỡng đã thiết lập.</string>
+    <string name="cutoff_threshold">Giới hạn ngắt Bypass: %d%%</string>
+</resources>

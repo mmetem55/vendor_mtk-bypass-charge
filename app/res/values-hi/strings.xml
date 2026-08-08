@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">बायपास चार्जिंग सक्षम करें</string>
+    <string name="auto_limit_title">स्वचालित सीमा सुरक्षा</string>
+    <string name="auto_limit_desc">निर्धारित सीमा से नीचे होने पर बायपास चार्जिंग बंद कर देता है और बैटरी चार्ज करता है।</string>
+    <string name="cutoff_threshold">बायपास कटऑफ सीमा: %d%%</string>
+</resources>

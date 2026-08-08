@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">启用旁路充电</string>
+    <string name="auto_limit_title">自动限制保护</string>
+    <string name="auto_limit_desc">当低于设置的阈值时，关闭旁路充电并为电池充电。</string>
+    <string name="cutoff_threshold">旁路截止限制：%d%%</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">تمكين الشحن التجاوزي</string>
+    <string name="auto_limit_title">حماية الحد التلقائي</string>
+    <string name="auto_limit_desc">يوقف الشحن التجاوزي ويشحن البطارية عندما تكون أقل من الحد المعين.</string>
+    <string name="cutoff_threshold">حد إيقاف التجاوز: %d%%</string>
+</resources>

@@ -1,0 +1,9 @@
+android_app {
+    name: "MtkBypassMenu",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+}

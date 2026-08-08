@@ -1,0 +1,1 @@
+genfscon proc /mtk_battery_cmd/current_cmd u:object_r:proc_mtk_bypass:s0

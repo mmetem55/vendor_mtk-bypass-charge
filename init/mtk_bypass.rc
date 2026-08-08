@@ -1,0 +1,25 @@
+service mtk_bypass_enable /system/bin/mtk_bypass enable
+    class core
+    user root
+    group root system
+    oneshot
+    disabled
+    seclabel u:r:mtk_bypass:s0
+
+service mtk_bypass_disable /system/bin/mtk_bypass disable
+    class core
+    user root
+    group root system
+    oneshot
+    disabled
+    seclabel u:r:mtk_bypass:s0
+
+on boot
+    setprop persist.sys.mtk_bypass 0
+    start mtk_bypass_disable
+
+on property:persist.sys.mtk_bypass=1
+    start mtk_bypass_enable
+
+on property:persist.sys.mtk_bypass=0
+    start mtk_bypass_disable

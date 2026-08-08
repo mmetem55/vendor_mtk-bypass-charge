@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Şarj</string>
+    <string name="enable_bypass_charging">Bypass Şarjı Etkinleştir</string>
+    <string name="auto_limit_title">Otomatik Eşik Koruması</string>
+    <string name="auto_limit_desc">Pil seviyesi belirlenen değerin altına düştüğünde bypass\'ı kapatıp bataryayı şarj eder.</string>
+    <string name="cutoff_threshold">Bypass Kesme Eşiği: %%%d</string>
+</resources>

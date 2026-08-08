@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">バイパス充電を有効化</string>
+    <string name="auto_limit_title">自動上限保護</string>
+    <string name="auto_limit_desc">設定したしきい値を下回るとバイパス充電をオフにし、バッテリーを充電します。</string>
+    <string name="cutoff_threshold">バイパス遮断上限: %d%%</string>
+</resources>

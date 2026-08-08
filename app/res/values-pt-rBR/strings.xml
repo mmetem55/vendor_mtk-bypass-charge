@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging</string>
+    <string name="enable_bypass_charging">Ativar carregamento bypass</string>
+    <string name="auto_limit_title">Proteção de limite automático</string>
+    <string name="auto_limit_desc">Desativa o carregamento bypass e carrega a bateria quando estiver abaixo do limite definido.</string>
+    <string name="cutoff_threshold">Limite de interrupção do bypass: %d%%</string>
+</resources>
