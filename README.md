@@ -26,6 +26,12 @@ Designed for MediaTek devices that provide the following battery control interfa
 
 Device and kernel support for this interface is required.
 
+## Tested Device
+
+| Device                     | SoC                | Android    | ROM            |
+| -------------------------- | ------------------ | ---------- | -------------- |
+| Infinix Hot 40 Pro (X6837) | MediaTek Helio G99 | Android 16 | LineageOS 23.2 |
+
 ## Device Tree Integration
 
 Add the following to the device tree:
