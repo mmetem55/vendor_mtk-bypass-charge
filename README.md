@@ -28,4 +28,4 @@ Device and kernel support for this interface is required.
 
 ## License
 
-GPL-2.0-only
+GPL-2.0
