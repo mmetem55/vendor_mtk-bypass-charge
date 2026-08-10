@@ -13,7 +13,7 @@ The project integrates bypass charging into the Android Settings application and
   /proc/mtk_battery_cmd/current_cmd
   ```
 * Uses a background **system service** to enable and disable bypass charging.
-* Provides an Automatic Charging Threshold setting, automatically starts charging when the battery level falls below the configured threshold.
+* Provides an **Automatic Charging Threshold** setting that automatically starts charging when the battery level falls below the configured threshold.
 * Integrates bypass charging directly into the Android system.
 
 ## Compatibility
@@ -25,6 +25,18 @@ Designed for MediaTek devices that provide the following battery control interfa
 ```
 
 Device and kernel support for this interface is required.
+
+## Device Tree Integration
+
+Add the following to the device tree:
+
+```makefile
+# MTK Bypass Charge
+
+$(call inherit-product, vendor/mtk-bypass-charge/mtk.mk)
+```
+
+The bypass charging logic and the `/proc/mtk_battery_cmd/current_cmd` interface are based on the work from [AZenith](https://github.com/Liliya2727/AZenith).
 
 ## License
 
