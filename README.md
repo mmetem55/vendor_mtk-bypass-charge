@@ -46,4 +46,4 @@ The bypass charging logic and the `/proc/mtk_battery_cmd/current_cmd` interface 
 
 ## License
 
-GPL-2.0
+GNU General Public License v2.0
