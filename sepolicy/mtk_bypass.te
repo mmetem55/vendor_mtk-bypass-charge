@@ -2,7 +2,7 @@ type mtk_bypass, domain, coredomain;
 type mtk_bypass_exec, exec_type, file_type, system_file_type;
 type mtk_bypass_prop, property_type, system_property_type, system_public_property_type;
 
-type proc_mtk_bypass, fs_type;
+type proc_mtk_bypass, fs_type, proc_type;
 
 init_daemon_domain(mtk_bypass)
 
