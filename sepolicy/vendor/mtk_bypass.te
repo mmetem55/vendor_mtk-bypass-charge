@@ -1,0 +1,11 @@
+type mtk_bypass, domain;
+type mtk_bypass_exec, exec_type, file_type, vendor_file_type;
+type proc_mtk_bypass, fs_type, proc_type;
+
+init_daemon_domain(mtk_bypass)
+
+# vendor rc does "setprop persist.sys.mtk_bypass 0" on boot
+set_prop(vendor_init, mtk_bypass_prop)
+
+allow mtk_bypass proc_type:dir search;
+allow mtk_bypass proc_mtk_bypass:file { rw_file_perms setattr };

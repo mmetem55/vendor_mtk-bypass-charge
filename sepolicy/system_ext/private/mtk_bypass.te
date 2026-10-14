@@ -1,0 +1,2 @@
+# MtkBypassMenu / tile / service run as system_app and toggle the property.
+set_prop(system_app, mtk_bypass_prop)

@@ -1,4 +1,4 @@
-service mtk_bypass_enable /system/bin/mtk_bypass enable
+service mtk_bypass_enable /vendor/bin/mtk_bypass enable
     class core
     user root
     group root system
@@ -6,7 +6,7 @@ service mtk_bypass_enable /system/bin/mtk_bypass enable
     disabled
     seclabel u:r:mtk_bypass:s0
 
-service mtk_bypass_disable /system/bin/mtk_bypass disable
+service mtk_bypass_disable /vendor/bin/mtk_bypass disable
     class core
     user root
     group root system
